@@ -1,7 +1,7 @@
 {
-  "name": "react-app",
-  "version": "2.0.0",
-  "description": "a sample project to clone when you are starting a new react project",
+  "name": "jest-react-app",
+  "version": "1.0.0",
+  "description": "a sample project to clone when you are starting a new react project w/jest",
   "main": "index.js",
   "dependencies": {
     "babel-cli": "^6.23.0",
@@ -16,18 +16,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/scottpreston/react-app.git"
+    "url": "git+https://github.com/scottpreston/jest-react-app.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/scottpreston/react-app/issues"
   },
-  "homepage": "https://github.com/scottpreston/react-app#readme",
+  "homepage": "https://github.com/scottpreston/jest-react-app#readme",
   "scripts": {
     "start": "http-server -o",
     "prestart": "npm run pack",
     "pack": "webpack",
-    "watch": "webpack --watch"
+    "watch": "webpack --watch",
+    "test": "jest"
   }
 }
