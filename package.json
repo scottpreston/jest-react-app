@@ -29,7 +29,8 @@
     "prestart": "npm run pack",
     "pack": "webpack",
     "watch": "webpack --watch",
-    "test": "jest"
+    "test": "jest",
+    "cover" : "jest --coverage"
   },
   "devDependencies": {
     "babel-jest": "^20.0.3",
