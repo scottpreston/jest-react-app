@@ -30,7 +30,7 @@
     "pack": "webpack",
     "watch": "webpack --watch",
     "test": "jest",
-    "cover" : "jest --coverage"
+    "cover": "jest --coverage"
   },
   "devDependencies": {
     "babel-jest": "^20.0.3",
